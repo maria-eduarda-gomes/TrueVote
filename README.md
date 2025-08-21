@@ -1,2 +1,2 @@
 # TrueVote
-Projeto para treinamentos em JAVA
+O sistema de voto para eleição de sindicos para condominios
