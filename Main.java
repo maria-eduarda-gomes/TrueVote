@@ -76,7 +76,7 @@ public class Main {
 
         int qtdEleitores;
         do {
-            System.out.print("\nDigite o número de eleitores: ");
+            System.out.print("\nDigite o número de eleitores:");
             qtdEleitores = sc.nextInt();
         } while (qtdEleitores < 1);
 
