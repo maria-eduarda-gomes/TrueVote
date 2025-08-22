@@ -1,4 +1,0 @@
-git clone https://github.com/maria-eduarda-gomes/TrueVote.git
-cd VotacaoSindico
-javac Main.java
-java Main
