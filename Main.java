@@ -53,11 +53,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("=== SISTEMA DE VOTAÇÃO PARA SÍNDICO (apenas vetores e matriz) ===");
+        System.out.println("=== SISTEMA DE VOTAÇÃO PARA SÍNDICO ===");
 
         int qtdCandidatos;
         do {
-            System.out.print("Digite o número de candidatos (>= 1): ");
+            System.out.print("Digite o número de candidatos: ");
             qtdCandidatos = sc.nextInt();
         } while (qtdCandidatos < 1);
         sc.nextLine();
@@ -76,7 +76,7 @@ public class Main {
 
         int qtdEleitores;
         do {
-            System.out.print("\nDigite o número de eleitores (>= 1): ");
+            System.out.print("\nDigite o número de eleitores: ");
             qtdEleitores = sc.nextInt();
         } while (qtdEleitores < 1);
 
